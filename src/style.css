@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+header{
+    text-shadow: 2px 2px 2px #333;
+    background-color: #666;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    background-color: #999;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+section h1{
+    text-shadow: 2px 2px 2px #666;
+}
+
+li.empresas{
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+
+main h2{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px #666;
+}
+
+main button {
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+main button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    background-color: rgb(127, 234, 255);
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    background-color: #999;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    color: white;
+    max-height: 70vh;
+}
+
+main form input{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+main form input::placeholder{
+    text-align: center;
+}
+
+footer{
+    margin-top: 48px;
+    background-color: #666;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333;
+}
