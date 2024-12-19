@@ -9,24 +9,16 @@ app.use(express.json())
 const port = 3000
 
 const Empresa = mongoose.model('Empresa', 
-    { name: String,
-
+    { 
+        name: String,
         cnpj: String,
-
         site: String,
-
         endereco: String,
-
         telefone: String,
-
         email: String,
-
         instagram: String,
-
         produto: String,
-
         valorProduto: Number,
-
     });
 
 app.get("/", async (req, res) => {
